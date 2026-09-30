@@ -1,14 +1,24 @@
-# shoten14-sample-openai
-技術書典14で発売された「Azure Mix Book 23H1」の第8章「Azure OpenAIとLangChainでトモダチを作る (第一夜)」に対応するサンプルコードリポジトリです。
+# Azure OpenAI and LangChain Book Sample
 
-ご不明な点等は本リポジトリのIssues/Pull requestsへお願いします。
+[English](README.md) | [日本語](README.ja.md)
 
-書籍ページ：[Azure Mix Book 23H1：もっちりソフト](https://techbookfest.org/product/wgZJASDjMznuWLndpV3dc0)
+Sample code for chapter 8 of Azure Mix Book 23H1, published at Tech Book Fest 14, demonstrating a conversational companion with Azure OpenAI and LangChain.
 
-## 環境準備
-Python 3.10.9で動作確認
+## Setup
 
-`openai`と`langchain`ライブラリのインストールが必要です。
-```zsh
-$ pip install -r requirements.txt
+The original sample was checked with Python 3.10.9 and requires the OpenAI and LangChain libraries.
+
+```bash
+pip install -r requirements.txt
 ```
+
+Open `main.ipynb` for the sample. [Book page](https://techbookfest.org/product/wgZJASDjMznuWLndpV3dc0). Questions about this sample can be raised through Issues or pull requests.
+
+
+## Contents
+
+- [main.ipynb](main.ipynb)
+
+## Detailed documentation
+
+The [Japanese guide](README.ja.md) retains the complete original setup instructions, configuration, examples, project status, and limitations. Supporting documents keep their existing language.
